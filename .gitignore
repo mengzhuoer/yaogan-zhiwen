@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+
+# 本地指纹与映射属于用户数据，默认不入库（examples/ 里有示例）
+local_fingerprints.json
+reference_fingerprints.json
+mapping.json
+console*.txt
